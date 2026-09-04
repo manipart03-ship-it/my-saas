@@ -24,3 +24,20 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Design system companion styles */
+.ds-input:focus-visible {
+  box-shadow: var(--shadow-focus-ring);
+  border-color: var(--border-focus);
+}
+.ds-input:disabled {
+  background: var(--ink-800);
+  color: var(--text-muted);
+  cursor: not-allowed;
+}
+
+.ds-button--primary:hover:not(:disabled)   { background: var(--brand-600); }
+.ds-button--primary:active:not(:disabled)  { background: var(--brand-700); }
+.ds-button--secondary:hover:not(:disabled) { border-color: var(--brand-500); }
+.ds-button--ghost:hover:not(:disabled)     { color: var(--text-primary); }
+.ds-button:focus-visible                   { outline: none; box-shadow: var(--shadow-focus-ring); }

@@ -1,0 +1,85 @@
+/*
+  Generated from tokens.json — do not hand-edit values here.
+  If you change a value, change it in tokens.json first, then re-sync.
+*/
+:root {
+  /* color */
+  --ink-950: #14171C;
+  --ink-900: #1C2027;
+  --ink-800: #262B33;
+  --ink-700: #343B45;
+  --ink-600: #4A5361;
+
+  --paper-50: #F6F4EF;
+  --paper-100: #EDEBE6;
+
+  --text-primary: #EDEBE6;
+  --text-secondary: #B8BCC4;
+  --text-muted: #7C818C;
+  --text-on-brand: #14171C;
+
+  --brand-500: #D8A344;
+  --brand-600: #C0902F;
+  --brand-700: #9E7526;
+
+  --success-500: #7FA07A;
+  --success-600: #668762;
+
+  --danger-500: #C1594F;
+  --danger-600: #A6473E;
+
+  --border-subtle: #2A2F38;
+  --border-default: #343B45;
+  --border-focus: #D8A344;
+
+  /* spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  /* typography */
+  --font-ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 15px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+
+  /* shadow */
+  --shadow-sm: 0 1px 2px rgba(20, 23, 28, 0.4);
+  --shadow-md: 0 4px 12px rgba(20, 23, 28, 0.5);
+  --shadow-focus-ring: 0 0 0 3px rgba(216, 163, 68, 0.35);
+
+  /* motion */
+  --duration-fast: 120ms;
+  --duration-base: 180ms;
+  --easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  background: var(--ink-950);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+}
